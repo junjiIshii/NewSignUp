@@ -25,8 +25,8 @@ $err_msg = array();
 
 function dbconnect(){
 	$dsn = 'mysql:dbname=junji1996_testserver; host=mysql8012.xserver.jp; charset=utf8';
-	$user = 'junji1996_ishii';
-	$password = 'Junji19960709';
+	$user = 'xxxxx';
+	$password = 'xxxxx';
 	$options = array(
 		PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
 		PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
